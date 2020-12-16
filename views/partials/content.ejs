@@ -1,0 +1,8 @@
+
+        <h1><%= title; %></h1>
+
+        <% let url = "../../views/partials/page/" + page + ".ejs"; %>
+
+        <!-- ../../views/partials/page/form.ejs -->
+        <%- include ( url, { data: data } ) -%>
+        
